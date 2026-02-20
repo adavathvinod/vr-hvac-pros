@@ -1,52 +1,55 @@
 import { Link } from "react-router-dom";
 import SectionHeading from "@/components/SectionHeading";
 import hero2 from "@/assets/hero-2.jpg";
-import serviceAc from "@/assets/service-ac.jpg";
-import serviceRepair from "@/assets/service-repair.jpg";
-import serviceCommercial from "@/assets/service-commercial.jpg";
-import hero1 from "@/assets/hero-1.jpg";
-import hero4 from "@/assets/hero-4.jpg";
+import serviceVrv from "@/assets/service-vrv.jpg";
+import serviceDuctable from "@/assets/service-ductable.jpg";
+import serviceCassette from "@/assets/service-cassette.jpg";
+import serviceTower from "@/assets/service-tower.jpg";
+import serviceSplit from "@/assets/service-split.jpg";
+import serviceAmc from "@/assets/service-amc.jpg";
+import serviceCommercialHvac from "@/assets/service-commercial-hvac.jpg";
+import serviceResidential from "@/assets/service-residential.jpg";
 
 const services = [
   {
     title: "VRV / VRF Systems",
     desc: "Variable Refrigerant Volume (VRV) and Variable Refrigerant Flow (VRF) systems are the most advanced HVAC technology for commercial and large residential projects. We provide complete installation, commissioning, and maintenance services for VRV/VRF systems from all major brands.",
-    img: serviceCommercial,
+    img: serviceVrv,
   },
   {
     title: "Ductable AC",
     desc: "Ductable air conditioning systems are ideal for large spaces like offices, showrooms, and commercial buildings. Our technicians are experts in ductable AC installation, repair, and maintenance, ensuring optimal cooling performance and energy efficiency.",
-    img: hero2,
+    img: serviceDuctable,
   },
   {
     title: "Cassette AC",
     desc: "Cassette AC units are perfect for commercial spaces with false ceilings. They provide uniform cooling with an elegant, flush-mounted design. We handle installation, servicing, and repairs for all cassette AC brands.",
-    img: serviceAc,
+    img: serviceCassette,
   },
   {
     title: "Tower AC",
     desc: "Tower AC units deliver powerful cooling for large rooms and commercial spaces. Our team provides expert installation and maintenance services for tower ACs, ensuring reliable performance throughout the year.",
-    img: hero1,
+    img: serviceTower,
   },
   {
     title: "Split AC",
     desc: "Split ACs are the most popular choice for homes and small offices. We offer professional split AC installation, repair, gas filling, and servicing for all major brands with quick turnaround times.",
-    img: serviceRepair,
+    img: serviceSplit,
   },
   {
     title: "AMC – Annual Maintenance Contract",
     desc: "Our Annual Maintenance Contracts keep your HVAC systems running at peak performance. Regular inspections, cleaning, and preventive maintenance help avoid breakdowns and extend the life of your equipment.",
-    img: hero4,
+    img: serviceAmc,
   },
   {
     title: "Commercial HVAC",
     desc: "Complete HVAC solutions for offices, malls, hospitals, and industrial buildings. We design, install, and maintain commercial HVAC systems of all scales, delivering energy-efficient climate control solutions.",
-    img: serviceCommercial,
+    img: serviceCommercialHvac,
   },
   {
     title: "Residential HVAC",
     desc: "From single-room cooling to whole-house HVAC systems, we make your home comfortable year-round. Our residential services include installation, repair, and maintenance for all types of air conditioning systems.",
-    img: hero1,
+    img: serviceResidential,
   },
 ];
 
